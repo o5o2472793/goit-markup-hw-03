@@ -38,30 +38,42 @@ body {
  padding-left: 15px;
  padding-right: 15px;  
 }
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 /*------HEDER-------*/
 .header-contakt {
     display: flex;
     align-items: center;
- 
+    
 }
 .header-navigation {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #ECECEC;
 }
 .header-list {
     display: flex;
     align-items: center;
 }
 .contakt-list {
+    margin-left: auto;
     display: flex;
     align-items: center;
+
 }
 .header-contakt {
     margin-left: auto;
+    align-items: center;
+ 
 }
 .header-items:not(:last-child) {
     margin-right: 50px;
+    align-items: center;
+    padding-bottom: 32px;
+    padding-top: 32px;
+   
 }
 .header-logo-1 {
 font-family: Raleway;
@@ -115,27 +127,25 @@ color: var(--akcent-title-color);
 color:var(--akcent-title-color);
 }
 /*-----section h2 (ефект)---*/
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 .hero {
     display: flex;
 }
 .hero {
     padding-top: 200px;
-    padding-left: 245px;
-    padding-right: 245px;
+    padding-bottom: 200px;
+   
 }
 
 .button-flexs {
     display: flex;
+    align-items: center;
 }
 .button-flexs {
-    padding-bottom: 200px;
-    padding-left: 450px;
-    padding-right: 450px;
     margin-top: 30px;
+    margin-left: 450px;
+    margin-right: 450px;
+  
  }
 
 .rishenie {
@@ -146,8 +156,6 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--praimary-title-color);
-max-width: 696px;
-max-height: 120px;
 align-items: center;
 
 }
@@ -161,18 +169,25 @@ align-items: center;
     background-color:#188CE8;
 }
 
-.button{
-font-weight: bold;
-font-size: 16px;
-line-height: 1.9;
-align-items: center;
-border: none;
-text-align: center;
-letter-spacing: 0.06em;
-color: var(--praimary-title-color);
-background-color:var(--akcent-title-color);
-width: 200px;
-height: 50px;
+.button {
+ font-weight: bold;
+ font-size: 16px;
+ line-height: 1.9;
+ border: none;
+ width: 200px;
+ height: 50px;
+ text-align: center;
+ letter-spacing: 0.06em;
+ color: var(--praimary-title-color);
+ background-color:var(--akcent-title-color);
+ border-radius: 4px;
+ -webkit-border-radius: 4px;
+ -moz-border-radius: 4px;
+ -ms-border-radius: 4px;
+ -o-border-radius: 4px;
+ padding-left: 25px;
+ 
+ 
 }
 
 /* ----------------reklama----------------*/
@@ -214,6 +229,7 @@ color: var(--four-title-color);
         display: flex;
         border: none;
        
+       
     }
     .galeri-2 {
         margin-right: 30px;
@@ -221,6 +237,12 @@ color: var(--four-title-color);
         border-radius: 0px 0px 4px 4px;
 
     }
+    
+    .color {
+        background-color: #F5F4FA;
+    }
+    
+   
 .stail {
     list-style: none; 
    }
@@ -253,7 +275,10 @@ margin-bottom: 50px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--thri-title-color)
+    color: var(--thri-title-color);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
    }
    /*-------futer------*/
    .footer-logo-1 {
@@ -283,7 +308,7 @@ margin-bottom: 50px;
     letter-spacing: 0.03em;
     text-decoration: none;
     color:var(--praimary-title-color);
-  }
+   }
 
   .adres-2 {
     font-family: Roboto;
@@ -294,20 +319,23 @@ margin-bottom: 50px;
     text-decoration: none;
     color: var(--praimary-title-color);
       }
-/* .adres-1 {
-    display: flex;
- margin-left: 215px;
-} */
+.adres-1{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .
   /*-----portfolio------*/
   
-            .knopki {
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: auto;
-        padding-right: auto;
+  .knopki {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
     }   
+
 
    
 .card-set {
@@ -330,10 +358,17 @@ margin-bottom: 50px;
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--four-title-color);
-   }
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
    .knopki-portfolio:hover,
    .knopki-portfolio:focus {
-    color: var(--akcent-title-color);
+    color: var(--praimary-title-color);
+    background-color: var(--akcent-title-color);
    }
    .rozdilu {
     font-family: Roboto;
@@ -344,6 +379,7 @@ margin-bottom: 50px;
     letter-spacing: 0.06em;
     color:var(--four-title-color);
     margin-top: 20px;
+    margin-left: 24px;
    }
    .rozdilu-2 {
     font-family: Roboto;
@@ -353,4 +389,5 @@ margin-bottom: 50px;
     line-height: 30px;
     letter-spacing: 0.03em;
     color: var(--thri-title-color);
+    margin-left: 24px;
    }
