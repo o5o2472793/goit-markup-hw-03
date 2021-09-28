@@ -199,6 +199,8 @@ align-items: center;
 
 .reklama-zagolovok {
     display: flex;
+    margin-top: 55px;
+    margin-bottom: 70px;
 }
 .recl-zag {
     margin-right: 40px;
