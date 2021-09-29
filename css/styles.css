@@ -195,16 +195,16 @@ align-items: center;
  
 }
 
-/* ----------------reklama----------------*/
+/* ----------------priimuchestva---------------*/
 
 .recl-zag {
     margin-right: 40px;
 }
-.reklama {
+.priimuschestva {
     display: flex;
     list-style: none;
-    margin-top: 55px;
-    margin-bottom: 32px;
+    /* margin-top: 55px;
+    margin-bottom: 32px; */
     
 }
 .vubor {
