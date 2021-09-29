@@ -203,9 +203,7 @@ align-items: center;
 .reklama {
     display: flex;
     list-style: none;
-    /* margin-top: 55px;
-    margin-bottom: 32px;
-     */
+  
 }
 .vubor {
 font-weight: 400;
