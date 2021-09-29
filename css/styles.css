@@ -197,16 +197,15 @@ align-items: center;
 
 /* ----------------reklama----------------*/
 
-.reklama-zagolovok {
-    display: flex;
-    margin-top: 55px;
-    margin-bottom: 70px;
-}
 .recl-zag {
     margin-right: 40px;
 }
 .reklama {
+    display: flex;
     list-style: none;
+    /* margin-top: 55px;
+    margin-bottom: 32px;
+     */
 }
 .vubor {
 font-weight: 400;
@@ -231,6 +230,7 @@ color: var(--four-title-color);
 .galeri-1:not(:last-child) {
         margin-right: 30px;  
     }
+
  .galeri-2 {
         display: flex;
         border: none;
